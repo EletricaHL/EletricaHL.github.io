@@ -348,20 +348,22 @@ body {
 }
 
 .footer-edit {
-    margin-top: 1rem;
-    font-size: 0.95rem;
+    margin-top: 1.5rem;
+    font-size: 0.75rem;
+    opacity: 0.7;
 }
 
 .edit-link {
-    color: #ffa500;
+    color: #999;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    font-weight: normal;
+    transition: all 0.3s ease;
 }
 
 .edit-link:hover {
-    color: #ff8c00;
+    color: #ffa500;
     text-decoration: underline;
+    opacity: 1;
 }
 
 /* Responsividade */
