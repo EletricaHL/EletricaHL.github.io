@@ -32,7 +32,7 @@ document.getElementById('contatoForm').addEventListener('submit', function(e) {
     );
     
     // Redirecionar para mailto
-    window.location.href = `mailto:contato@eletricapro.com?subject=${assunto}&body=${corpo}`;
+    window.location.href = `mailto:hugo.xlr@hotmail.com?subject=${assunto}&body=${corpo}`;
     
     // Limpar formulário
     this.reset();
